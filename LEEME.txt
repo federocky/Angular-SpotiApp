@@ -1,0 +1,1 @@
+para que funcione recuerda que tienes que generar un nuevo token desde postman con los datos que tienes en spotify developers dashboard

@@ -13,8 +13,12 @@ import { ROUTES } from './app.routes';
 
 //importamos el cliente HTTP
 import { HttpClientModule } from '@angular/common/http';
-import { NoimagePipe } from './pipes/noimage.pipe';
+
 import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
+import { LoadingComponent } from './components/shared/loading/loading.component';
+
+import { NoimagePipe } from './pipes/noimage.pipe';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 
 @NgModule({
@@ -25,7 +29,9 @@ import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
     ArtistaComponent,
     NavbarComponent,
     NoimagePipe,
-    TarjetasComponent
+    TarjetasComponent,
+    DomseguroPipe,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,

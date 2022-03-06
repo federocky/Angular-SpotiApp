@@ -1,27 +1,34 @@
-# SpotyApp
+# Hero App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
+![Project Image](./main_img.png)
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Description
+A spotify version, made consuming information using sopotify API. To make it work you will need an api token. The app was made while learning Angular following this great course from Fernando Herrera.
 
-## Code scaffolding
+[Udemy - Fernando Herrera - Angular: De cero a experto.](https://www.udemy.com/share/101Wds3@S0opZ16xnJWAL-7hIXfK4Y1e_EOreKyocpG8FYixECNXl13CqSRfa3r39VgOdi_7Hg==/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Use
 
-## Running unit tests
+To consume information from spotify api you will need to get the token from the web, and paste it in the app service Bearer XXXXXX.
+To run the angular application you need to run npm install to get the needed packages and ng serve -o to run it in a local server.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## Technologies
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- Angular
+- Type Script
+- Bootstrap
 
-## Further help
+---
+## Author Info
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Linkedin - [Federico Andrés Jácome Castañeda](https://www.linkedin.com/in/federicojacome/)
+- Website - [To be added](https://github.com/federocky)
+
+[Back To The Top](#read-me-template)
